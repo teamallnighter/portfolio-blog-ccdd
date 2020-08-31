@@ -7,7 +7,7 @@ description: Web Designer and Web Developer Calgary. My dad always loved this
   game so I had to make this one
 featuredImage: /assets/chrisconnelly-minesweeoper.png
 ---
-## Project: Mine Sweeper 
+## Project: Mine Sweeper
 
 ##### Build: HTML, CSS, Vanilla JavaScript
 
@@ -15,8 +15,8 @@ featuredImage: /assets/chrisconnelly-minesweeoper.png
 
 ##### Deployment: Github / Netlify
 
-#### [View the full site](mine-sweeper-for-dad.netlify.app)
+#### [Check it out here](https://mine-sweeper-for-dad.netlify.app)
 
----
+- - -
+
 Had to make this one for my dad!
-
