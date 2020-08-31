@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Guardian Condominium Care
-slug: guardian_condominium_care
+slug: 2020-08-31-guardian-condominium-care.md
 date: 2020-08-25 03:09
 description: "Chris Connelly Web Designer Calgary. This is a site for my client
   Guardian Condominium Care "
