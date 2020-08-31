@@ -9,6 +9,10 @@ featuredImage: /assets/chrisconnellydotdev-guardiancondocare-2.png
 ---
 ## Customer: Guardian Condominium Care
 
-### Build: HTML, SASS, JavaScript
+##### Build: HTML, SASS, JavaScript
 
-### Deployment: Netlify
+##### Deployment: Github / Netlify
+
+#### [View the full site](https://guardian-condo-care-2020.netlify.app)
+
+![Guardian Condominium Care Home Page](/assets/chrisconnellydotdev-guardiancondocare.png)
