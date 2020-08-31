@@ -15,7 +15,7 @@ featuredImage: /assets/chrisconnelly-minesweeoper.png
 
 ##### Deployment: Github / Netlify
 
-#### [Check it out here](https://mine-sweeper-for-dad.netlify.app)
+<https://mine-sweeper-for-dad.netlify.app>
 
 - - -
 
