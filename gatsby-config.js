@@ -79,7 +79,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `chrisconnellydptdev`,
+        name: `chrisconnellydotdev`,
         short_name: `Chris Connelly`,
         start_url: `/`,
         background_color: `#f7f0eb`,
