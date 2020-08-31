@@ -15,7 +15,7 @@ featuredImage: /assets/chrisconnelly-minesweeoper.png
 
 ##### Deployment: Github / Netlify
 
-#### [View the full site](https://guardian-condo-care-2020.netlify.app)
+#### [View the full site](mine-sweeper-for-dad.netlify.app)
 
 ---
 Had to make this one for my dad!
