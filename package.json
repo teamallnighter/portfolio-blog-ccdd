@@ -1,15 +1,15 @@
 {
-  "name": "@stackrole/gatsby-starter-foundation",
-  "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+  "name": "Chris Connelly's Portfolio",
+  "description": "My developer portfolio build from Gatsby react and graphql",
   "version": "1.0.0",
-  "author": "Stackrole <stackrole@gmail.com>",
+  "author": "Chris Connelly <me@chrisconnelly.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stackrole/gatsby-starter-foundation.git"
+    "url": "https://github.com/teamallnighter/portfolio-blog-ccdd.git"
   },
   "bugs": {
-    "url": "https://github.com/stackrole/gatsby-starter-foundation/issues"
+    "url": "https://github.com/teamallnighter/portfolio-blog-ccdd/issues"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
