@@ -8,15 +8,15 @@ const MenuItems = [
     title: "Home"
   },
   {
-    path: "/about",
-    title: "About"
+    path: "https://chrisconnelly.dev",
+    title: "Home Page"
   },
   {
     path: "/blog",
-    title: "Blog"
+    title: "Portfolio"
   },
   {
-    path: "/contact",
+    path: "https://ccdd-proposal-form.netlify.app",
     title: "Contact"
   },
 ]

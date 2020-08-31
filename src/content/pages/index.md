@@ -8,4 +8,4 @@ cta:
   ctaText: Check out my portfolio
   ctaLink: /blog
 ---
-Hello World
+My name is Chris, I am a full stack web developer from Calgary. This is my developer portfolio
