@@ -2,7 +2,7 @@
   "meta": {
     "title": "Chris Connelly's Portfolio",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+    "description": "A portfolio page built by yours truly ",
     "siteUrl": "https://portfolio.chrisconnelly.dev",
     "image": "/assets/chrisconnelly.png",
     "twitterUsername": "@teamallnighteer"
