@@ -1,9 +1,10 @@
 ---
 template: blog-post
-title: "Full Stack Jamstack: Serverless GraphQL"
+title: 'Full Stack Jamstack: Serverless GraphQL'
 slug: /blog/fsjs-serverless-graphql
-date: 2020-09-03 15:24
-description: "This is a serverless database using graphql. "
+date: '2020-09-03 15:24'
+description: 'This is a serverless database using graphql. '
+featuredImage: /assets/cover-2.png
 ---
 This is a serverless back end for an API with Graph-QL. This is a quick and easy way to store data on a server and have it accessed in a very secure way.
 
