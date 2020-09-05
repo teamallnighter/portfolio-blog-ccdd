@@ -1,13 +1,14 @@
 ---
 template: blog-post
-title: "Full Stack Jamstack: AirTable Database with Netlify Functions"
+title: 'Full Stack Jamstack: AirTable Database with Netlify Functions'
 slug: /blog/coursetracker
-date: 2020-08-31 11:40
+date: '2020-08-31 11:40'
 description: >-
   This is from a tutorial from James Q Quick so shout out to him for this
   awesome idea.
 
-  Normally, to have this sort of dynamic content coming from a database you would need to know SQL a programming language for databases.
+  Normally, to have this sort of dynamic content coming from a database you
+  would need to know SQL a programming language for databases.
 featuredImage: /assets/chris connelly web design calgary.png
 ---
 ## Project: Netlify Functions airtable course tracker
@@ -18,15 +19,13 @@ featuredImage: /assets/chris connelly web design calgary.png
 
 ##### Deployment: Github and Netlify
 
-##### [Check it out](https://airtable-react-course-tracker.netlify.app/)
+##### [Check out this video for more](https://blog.chrisconnelly.dev/airtable/netlify/2020/09/03/netlify-airtable.html)
 
 - - -
 
 This is from a[ tutorial](https://youtu.be/VxlbcoJ3nnc) from [James Q Quick](https://github.com/jamesqquick) so shout out to him for this awesome idea.
 
 Normally, to have this sort of dynamic content coming from a database you would need to know SQL a programming language for databases. It would probably take at least ten database tables. This would slow the site down, create some vulnerabilities and take a lot more man hours. 
-
-
 
 All we need to do bring in airtable.
 
@@ -40,8 +39,6 @@ const table = base(process.env.AIRTABLE_TABLE_NAME);
 
 module.exports = { table };
 ```
-
-
 
 Create
 
@@ -95,7 +92,6 @@ module.exports = async (event) => {
         return formattedReturn(500, {});
     }
 };
-
 ```
 
 Update
@@ -113,10 +109,7 @@ module.exports = async (event) => {
         return formattedReturn(500, {});
     }
 };
-
 ```
-
-
 
 ![Jamstack web app based on air table](/assets/chris connelly web design calgary.png "The finished app")
 
