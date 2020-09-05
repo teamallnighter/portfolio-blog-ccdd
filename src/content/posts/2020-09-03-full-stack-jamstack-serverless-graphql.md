@@ -1,11 +1,25 @@
 ---
 template: blog-post
-title: 'Full Stack Jamstack: Serverless GraphQL'
+title: "Full Stack Jamstack: Serverless GraphQL"
 slug: /blog/fsjs-serverless-graphql
-date: '2020-09-03 15:24'
-description: 'This is a serverless database using graphql. '
+date: 2020-09-03 15:24
+description: "This is a serverless database using graphql. "
 featuredImage: /assets/cover-2.png
 ---
+## Project: Netlify Functions Serverless GraphQL API
+
+##### Build: React, Netlify Serverless Functions, CSS, Node.js and REACT
+
+##### Features: Serverless, Netlify Functions, Database, API
+
+##### Deployment: Github and Netlify
+
+#### [Demo](https://netlify-ql-2020.netlify.app/api/v1)
+
+##### [Blog Post](https://blog.chrisconnelly.dev/netlify%20functions/netlify/2020/09/03/netlify-graphql-api.html)
+
+- - -
+
 This is a serverless back end for an API with Graph-QL. This is a quick and easy way to store data on a server and have it accessed in a very secure way.
 
 In this example you can [click here](https://netlify-ql-2020.netlify.app/api/v1) and betaken to the Graph-QL playground. Right now there is no login or as this is all dummy data. once you see the play ground you query the api like so:
