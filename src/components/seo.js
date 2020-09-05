@@ -32,15 +32,6 @@ const SEO = ({ title, description, image, article }) => {
       <link rel="alternate" href={seo.url} hreflang="x-default" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-      <link rel="manifest" href="/assets/favicon/site.webmanifest">
-      <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#d55bbc">
-      <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
-      <meta name="theme-color" content="#ffffff"></meta>
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
