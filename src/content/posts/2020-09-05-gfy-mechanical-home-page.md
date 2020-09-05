@@ -16,6 +16,6 @@ featuredImage: /assets/gfymechnical-chrisconnellydotdev.png
 
 #### [Demo](https://gfymechanical.ca)
 
-##### [Check out this video for more](https://blog.chrisconnelly.dev/airtable/netlify/2020/09/03/netlify-airtable.html)
-
 - - -
+
+My good friend who runs a mechanical company was looking for a website. I built him this super fast, super secure, and super easy to navigate one page site!
