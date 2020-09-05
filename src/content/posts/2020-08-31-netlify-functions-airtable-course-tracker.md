@@ -1,14 +1,13 @@
 ---
 template: blog-post
-title: 'Full Stack Jamstack: AirTable Database with Netlify Functions'
+title: "Full Stack Jamstack: AirTable Database with Netlify Functions"
 slug: /blog/coursetracker
-date: '2020-08-31 11:40'
+date: 2020-08-31 11:40
 description: >-
   This is from a tutorial from James Q Quick so shout out to him for this
   awesome idea.
 
-  Normally, to have this sort of dynamic content coming from a database you
-  would need to know SQL a programming language for databases.
+  Normally, to have this sort of dynamic content coming from a database you would need to know SQL a programming language for databases.
 featuredImage: /assets/chris connelly web design calgary.png
 ---
 ## Project: Netlify Functions airtable course tracker
@@ -18,6 +17,8 @@ featuredImage: /assets/chris connelly web design calgary.png
 ##### Features: Serverless, airtable database, JAMstack
 
 ##### Deployment: Github and Netlify
+
+#### [Demo](https://courses-app-222.netlify.app/)
 
 ##### [Check out this video for more](https://blog.chrisconnelly.dev/airtable/netlify/2020/09/03/netlify-airtable.html)
 
