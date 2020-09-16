@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Node.JS Twitter Scraper
-slug: /blog/twitter-scraper
+slug: /twitter-scraper
 date: 2020-09-16 02:37
 description: Chris Connelly javascript developer from Alberta
 featuredImage: /assets/twitterscraper.png
