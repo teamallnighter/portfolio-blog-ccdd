@@ -2,7 +2,7 @@
 template: blog-post
 title: "Web Scraper With Puppeteer "
 slug: /scrapers/puppeteer
-date: 2020-09-16 02:22
+date: 2020-09-01 02:22
 description: Chris Connelly JavaScript Developer Calgary
 featuredImage: /assets/puppeteer-scraper-chrisconnellydotdev.png
 ---
