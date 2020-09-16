@@ -1,8 +1,8 @@
 ---
 template: blog-post
 title: "My First Node JS Web Scraper "
-slug: /imdb-scraper
-date: 2020-09-12 15:13
+slug: /scrapers/imdb
+date: 2020-08-31 15:13
 description: Chris Connelly web developer
 featuredImage: /assets/imdb-webscraper.png
 ---
