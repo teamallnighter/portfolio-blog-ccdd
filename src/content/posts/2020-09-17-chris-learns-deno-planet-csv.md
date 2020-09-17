@@ -13,6 +13,12 @@ featuredImage: /assets/planet-csv.png
 ##### Build: Deno, TypeScript
 - - -
 
+This app is a part of a [Udemy Course](https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery) on Deno that I took. 
+
+Deno is a super powerful and simple JavaScript runtime. 
+
+This app runs through data in a .csv and with certain options met creates a list of habitable planets
+
 ```typescript
 import { join } from "https://deno.land/std/path/mod.ts";
 import { parse } from "https://deno.land/std/encoding/csv.ts";
