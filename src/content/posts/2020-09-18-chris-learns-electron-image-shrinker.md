@@ -12,7 +12,7 @@ featuredImage: /assets/chrisconnellydotdev-imageshrinker.png
 
 #### [GITHUB](https://github.com/teamallnighter/chris-learns-electron/tree/main/image-shrink)
 
-#### [Downlaod](https://downloands.chrisconnelly.dev/electron/image-shrink)
+#### [Downlaod](https://downloands.chrisconnelly.dev/electron/image-shrink.html)
 
 - - -
 
