@@ -10,7 +10,7 @@ featuredImage: /assets/screen-shot-2020-09-18-at-12.40.28-am.png
 
 ##### Features: An API that pulls data from SPACEX's API on missions
 
-#### Github Link: [https://github.com/teamallnighter/chris-learns-deno](https://github.com/teamallnighter/chris-learns-deno)
+#### [GITHUB](https://github.com/teamallnighter/chris-learns-deno/tree/master/nasa)
 
 - - -
 
