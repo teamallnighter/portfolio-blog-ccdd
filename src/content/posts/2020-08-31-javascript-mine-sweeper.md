@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: "JavaScript Mine Sweeper "
-slug: /blog/minesweeper
+slug: /games/minesweeper
 date: 2020-08-31 05:09
 description: Web Designer and Web Developer Calgary. My dad always loved this
   game so I had to make this one
