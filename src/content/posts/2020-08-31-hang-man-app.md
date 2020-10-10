@@ -1,8 +1,8 @@
 ---
 template: blog-post
 title: Hang Man App
-slug: /blog/hangman
-date: '2020-06-04 01:10'
+slug: /games/hang-man
+date: 2020-06-04 01:10
 description: Hang man app with javascript. Web Designer Alberta
 featuredImage: /assets/hangman app - web designer edmonton.png
 ---
