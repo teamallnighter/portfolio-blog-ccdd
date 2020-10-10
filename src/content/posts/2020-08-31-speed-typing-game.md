@@ -1,9 +1,9 @@
 ---
 template: blog-post
 title: Speed Typing Game
-slug: /blog/typinggame
-date: '2020-03-05 09:26'
-description: 'Web Designer Calgary, Speed typing game. JavaScript Developer'
+slug: /games/typing-game
+date: 2020-03-05 09:26
+description: Web Designer Calgary, Speed typing game. JavaScript Developer
 featuredImage: /assets/chrisconnellydotdev-Speed Typing Game.png
 ---
 A typing game to test your speed and accuracy.
