@@ -19,3 +19,7 @@ featuredImage: /assets/gfymechnical-chrisconnellydotdev.png
 - - -
 
 My good friend who runs a mechanical company was looking for a website. I built him this super fast, super secure, and super easy to navigate one page site!
+
+---
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
