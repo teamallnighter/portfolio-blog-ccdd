@@ -25,3 +25,7 @@ My good friend Dustin runs a tattoo shop in Calgary and asked me to help out wit
 ---
 
 ![Studio Phi Store ](/assets/chrisconnellydotdev-studiophi-merch.png "The Studio Phi Shop")
+
+---
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
