@@ -12,3 +12,5 @@ featuredImage: /assets/hangman app - web designer edmonton.png
   See the Pen <a href='https://codepen.io/chris-connelly/pen/NWNvbQQ'>Hangman</a> by Chris Connelly
   (<a href='https://codepen.io/chris-connelly'>@chris-connelly</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
