@@ -19,3 +19,7 @@ featuredImage: /assets/web-designer-calgary.png
 ---
 
 Just a fun one page site made with JUST CSS
+
+---
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
