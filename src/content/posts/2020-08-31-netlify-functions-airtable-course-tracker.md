@@ -115,3 +115,10 @@ module.exports = async (event) => {
 ![Jamstack web app based on air table](/assets/chris connelly web design calgary.png "The finished app")
 
 ![Air Table Database](/assets/fullstack web developer chris connelly.png "The Air Table Database")
+
+
+
+
+---
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
