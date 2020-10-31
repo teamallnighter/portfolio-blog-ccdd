@@ -2,7 +2,7 @@
 template: blog-post
 title: Form Validation
 slug: /vanilla-js/form-validator
-date: 2019-11-07 05:22
+date: 2020-03-01 05:22
 description: javaScript Developer Calgary
 featuredImage: /assets/screen-shot-2020-10-31-at-5.24.29-am.png
 ---
