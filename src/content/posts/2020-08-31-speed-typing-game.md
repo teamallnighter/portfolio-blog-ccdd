@@ -14,3 +14,9 @@ A typing game to test your speed and accuracy.
   See the Pen <a href='https://codepen.io/chris-connelly/pen/OJNjWxL'>Typing Game</a> by Chris Connelly
   (<a href='https://codepen.io/chris-connelly'>@chris-connelly</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+
+---
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
+
