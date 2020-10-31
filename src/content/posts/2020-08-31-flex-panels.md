@@ -2,7 +2,7 @@
 template: blog-post
 title: Flex Panels
 slug: /blog/panels
-date: '2020-06-30 04:37'
+date: 2020-06-30 04:37
 description: Flex Panels with CSS ans JS. Chris Connelly Dot Dev.
 featuredImage: /assets/panels-chrisconnelly-calgary web designer.png
 ---
@@ -10,3 +10,5 @@ featuredImage: /assets/panels-chrisconnelly-calgary web designer.png
   See the Pen <a href='https://codepen.io/chris-connelly/pen/GRZvrNe'>Panels </a> by Chris Connelly
   (<a href='https://codepen.io/chris-connelly'>@chris-connelly</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
