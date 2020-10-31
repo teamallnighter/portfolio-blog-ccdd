@@ -4,6 +4,7 @@ title: Understanding Events in JS
 slug: /vanilla-js/events
 date: 2020-03-13 09:19
 description: JavaScript Developer Vancouver
+featuredImage: /assets/1zm80qaekzgu8p54w98g.webp
 ---
 <script async src="//jsfiddle.net/teamallnighter/eLrdmnyx/78/embed/js,html,css,result/dark/?fontColor=FF69B4&accentColor=b4ff69&bodyColor=1b1b1b&menuColor=white"></script>
 
