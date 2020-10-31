@@ -24,3 +24,5 @@ I had done a lot of work with Guardian for many years in last job as a property 
 Geoff didn't want anything generic or out of the box. THAT is something I love to hear. I really feel we found a very nice unique design that still follows modern UX best practices.
 
 ![Guardian Condominium Care Home Page](/assets/chrisconnellydotdev-guardiancondocare.png)
+
+Visit [https://chrisconnelly.dev ](https://chrisconnelly.dev)for more
