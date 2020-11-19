@@ -20,6 +20,10 @@ featuredImage: /assets/screen-shot-2020-11-18-at-8.02.38-pm.png
 
 Just a cool little music player with a spinning record when the music plays. 
 
+
+
+![](/assets/web-designer-calgary-alberta.png)
+
 ```css
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
@@ -217,7 +221,6 @@ a:hover{
   width: 0%;
   transition: width 0.1s linear;
 }
-
 ```
 
 ```javascript
@@ -331,5 +334,4 @@ progressContainer.addEventListener('click', setProgress);
 
 // Song ends
 audio.addEventListener('ended', nextSong);
-
 ```
