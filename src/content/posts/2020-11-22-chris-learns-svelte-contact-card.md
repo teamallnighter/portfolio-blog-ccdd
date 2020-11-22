@@ -5,6 +5,7 @@ slug: /svelte/contact-card
 date: 2020-11-22 08:27
 description: JavaScript Developer Calgary - JavaScript Developer Edmonton -  Web
   Design Calgary
+featuredImage: /assets/contact-card-pic.png
 ---
 ## Contact Card Generator
 
