@@ -23,13 +23,17 @@ For this project I built a form that takes the user input and puts it into the c
 
 Svelte takes the code given and converts it into Javascript, HTML and CSS. 
 
+## The App
 
+![Web Design Edmonton](/assets/screen-shot-2020-11-22-at-8.42.56-am.png "The Form")
+
+
+
+![Web Design Red Deer](/assets/screen-shot-2020-11-22-at-8.43.05-am.png "The Result")
+
+## The Code
 
 ![Web Design Calgary](/assets/svelte-app-1.png "The main app file for this app")
-
-
-
-
 
 the output:
 
