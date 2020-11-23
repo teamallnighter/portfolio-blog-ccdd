@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Music Player
-slug: javascript/music-player
+slug: /javascript/music-player
 date: 2020-11-18 20:01
 description: Web design Vancouver
 featuredImage: /assets/screen-shot-2020-11-18-at-8.02.38-pm.png
