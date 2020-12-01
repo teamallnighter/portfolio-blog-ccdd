@@ -2,7 +2,7 @@
 template: blog-post
 title: Quote Generator
 slug: /js/quote-gen
-date: 2020-12-01 15:37
+date: 2020-06-18 15:37
 description: "Web Design Calgary JavaScript Quote Generator "
 featuredImage: /assets/screen-shot-2020-12-01-at-3.38.11-pm.png
 ---
