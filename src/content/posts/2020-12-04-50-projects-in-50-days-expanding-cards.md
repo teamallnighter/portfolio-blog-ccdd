@@ -14,6 +14,6 @@ featuredImage: /assets/1ec.png
 
 ##### Deployment: Netlify
 
-#### [Live Site]()
+#### [Live Site](https://50-projects-in-50-days.netlify.app/expandingcards/)
 
 - - -
