@@ -14,6 +14,6 @@ featuredImage: /assets/3rn.png
 
 ##### Deployment: Netlify
 
-#### [Live Site](https://50-projects-in-50-days.netlify.app/expandingcards/)
+#### [Live Site](https://50-projects-in-50-days.netlify.app/rotating-nav/)
 
 - - -
