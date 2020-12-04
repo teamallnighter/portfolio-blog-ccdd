@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: 50 Projects In 50 Days
+title: "50 Projects In 50 Days: Progress Steps"
 slug: /javascript/progress-steps
 date: 2020-12-05 08:21
 description: Web Design Calgary
