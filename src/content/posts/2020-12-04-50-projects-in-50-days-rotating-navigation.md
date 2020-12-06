@@ -6,11 +6,11 @@ date: 2020-12-06 08:33
 description: Web Design Edmonton
 featuredImage: /assets/3rn.png
 ---
-## Project: Expanding Cards
+## Project: Rotating Nav
 
 ##### Build: HTML, SASS, Vanilla JS
 
-##### Features: Awesome Looking Expanding Cards
+##### Features: A navigation that rotates the main content
 
 ##### Deployment: Netlify
 
