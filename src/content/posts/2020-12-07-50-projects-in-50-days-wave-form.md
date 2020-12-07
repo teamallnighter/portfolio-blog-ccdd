@@ -6,7 +6,7 @@ date: 2020-12-07 16:16
 description: Web Design Calgary
 featuredImage: /assets/screen-shot-2020-12-07-at-4.17.05-pm.png
 ---
-## Project: Sound Board
+## Project: Wave Form
 
 ##### Build: HTML, SASS, Vanilla JS
 
@@ -14,6 +14,6 @@ featuredImage: /assets/screen-shot-2020-12-07-at-4.17.05-pm.png
 
 ##### Deployment: Netlify
 
-[Live Page](https://50-projects-in-50-days.netlify.app/sound-board/)
+[Live Page](https://50-projects-in-50-days.netlify.app/wave-from)
 
 - - -
