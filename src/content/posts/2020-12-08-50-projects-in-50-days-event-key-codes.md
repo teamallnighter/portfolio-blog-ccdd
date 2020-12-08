@@ -15,7 +15,7 @@ featuredImage: /assets/screen-shot-2020-12-07-at-10.40.36-pm.png
 
 ##### Deployment: Netlify
 
-#### [Live Site](http://127.0.0.1:5501/event-key-codes/)
+#### [Live Site](https://50-projects-in-50-days.netlify.app/event-key-codes/)
 
 - - -
 
