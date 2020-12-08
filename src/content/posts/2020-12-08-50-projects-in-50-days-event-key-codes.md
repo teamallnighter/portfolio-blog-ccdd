@@ -5,6 +5,7 @@ slug: /javascript/event-key-codes
 date: 2020-12-12 22:32
 description: Web Design Calgary | In this project we built an app that
   recognizes and displays key strokes from the user.
+featuredImage: /assets/screen-shot-2020-12-07-at-10.40.36-pm.png
 ---
 ## Project: Event Key Codes
 
