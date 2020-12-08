@@ -17,3 +17,17 @@ featuredImage: /assets/3rn.png
 #### [Live Site](https://50-projects-in-50-days.netlify.app/rotating-nav/)
 
 - - -
+
+Continuing on with my 50 projects in 50 days course. We built a rotating navigation. This one looks REALLY great. When you click the hamburger menu, the page tilts on a 45 degree angle exposing the menu. 
+
+
+
+```javascript
+const open = document.getElementById('open')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
+
+open.addEventListener('click', () => container.classList.add('show-nav'))
+
+close.addEventListener('click', () => container.classList.remove('show-nav'))
+```
