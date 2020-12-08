@@ -15,33 +15,8 @@ featuredImage: /assets/screen-shot-2020-12-08-at-4.41.28-pm.png
 
 ##### Deployment: Netlify
 
-#### [Live Site](http://127.0.0.1:5501/event-key-codes/)
+#### [Live Site](https://50-projects-in-50-days.netlify.app/faq/)
 
 - - -
 
-In this project we built an app that recognizes and displays key strokes from the user.
-
-
-
-
-
-```javascript
-const insert = document.getElementById('insert')
-
-window.addEventListener('keydown', (event) => {
-  insert.innerHTML = `
-  <div class="key">
-  ${event.key === ' ' ? 'Space' : event.key} 
-  <small>event.key</small>
-</div>
-<div class="key">
-  ${event.keyCode}
-  <small>event.keyCode</small>
-</div>
-<div class="key">
-  ${event.code}
-  <small>event.code</small>
-</div>
-  `
-})
-```
+In this project we built a FAQ page. This page uses a lot of CSS. The javascript is very easy and is just used to open and closed the question. 
