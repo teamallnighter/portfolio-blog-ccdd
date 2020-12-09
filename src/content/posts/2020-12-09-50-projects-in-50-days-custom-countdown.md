@@ -7,86 +7,130 @@ description: Web design Vancouver | In this project we built a custom count down
   to any date. This also uses local storage and has a video background.
 featuredImage: /assets/screen-shot-2020-12-08-at-5.28.05-pm.png
 ---
-## Project: Random Choice Picker
+## Project: Custom Countdown
 
 ##### Build: HTML, SASS, Vanilla JS
 
-##### Features: pick a random thing from an array provided by the user.
+##### Features: countdown to any date, local storage, responsive and video background
 
 ##### Deployment: Netlify
 
-#### [Live Site](https://50-projects-in-50-days.netlify.app/random-choice-picker)
+#### [Live Site](https://50-projects-in-50-days.netlify.app/custom-countdown/)
 
 - - -
 
-This is my favourite app so far! It was a lot of fun. The user inputs their choices separated by commas. The app will then pick a random choice.
+ In this project we built a custom count down to any date. This also uses local storage and has a video background.
 
 ```javascript
-const tagsEl = document.getElementById('tags')
-const textarea = document.getElementById('textarea')
+const countdownForm = document.getElementById('countdownForm');
+const inputContainer = document.getElementById('input-container');
+const dateEl = document.getElementById('date-picker');
 
-textarea.focus()
+const countdownEl = document.getElementById('countdown');
+const countdownElTitle = document.getElementById('countdown-title');
+const countdownBtn = document.getElementById('countdown-button');
+const timeElements = document.querySelectorAll('span');
 
-textarea.addEventListener('keyup', (e) => {
-    createTags(e.target.value)
+const completeEl = document.getElementById('complete');
+const completeElInfo = document.getElementById('complete-info');
+const completeBtn = document.getElementById('complete-button');
 
-    if(e.key === 'Enter') {
-        setTimeout(() => {
-            e.target.value = ''
-        }, 10)
+let countdownTitle = '';
+let countdownDate = '';
+let countdownValue = Date;
+let countdownActive;
+let savedCountdown;
 
-        randomSelect()
+const second = 1000;
+const minute = second * 60;
+const hour = minute * 60;
+const day = hour * 24;
+
+// Set Date Input Min & Value with Today's Date
+const today = new Date().toISOString().split('T')[0];
+dateEl.setAttribute('min', today);
+
+// Populate Countdown / Complete UI
+function updateDOM() {
+  countdownActive = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = countdownValue - now;
+    const days = Math.floor(distance / day);
+    const hours = Math.floor((distance % day) / hour);
+    const minutes = Math.floor((distance % hour) / minute);
+    const seconds = Math.floor((distance % minute) / second);
+    // Hide Input
+    inputContainer.hidden = true;
+    // If the countdown has ended, show final state
+    if (distance < 0) {
+      countdownEl.hidden = true;
+      clearInterval(countdownActive);
+      completeElInfo.textContent = `${countdownTitle} finished on ${countdownDate}`;
+      completeEl.hidden = false;
+    } else {
+      // else, show the countdown in progress
+      countdownElTitle.textContent = `${countdownTitle}`;
+      timeElements[0].textContent = `${days}`;
+      timeElements[1].textContent = `${hours}`;
+      timeElements[2].textContent = `${minutes}`;
+      timeElements[3].textContent = `${seconds}`;
+      completeEl.hidden = true;
+      countdownEl.hidden = false;
     }
-})
-
-function createTags(input) {
-    const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
-    
-    tagsEl.innerHTML = ''
-
-    tags.forEach(tag => {
-        const tagEl = document.createElement('span')
-        tagEl.classList.add('tag')
-        tagEl.innerText = tag
-        tagsEl.appendChild(tagEl)
-    })
+  }, second);
 }
 
-function randomSelect() {
-    const times = 30
-
-    const interval = setInterval(() => {
-        const randomTag = pickRandomTag()
-
-        highlightTag(randomTag)
-
-        setTimeout(() => {
-            unHighlightTag(randomTag)
-        }, 100)
-    }, 100);
-
-    setTimeout(() => {
-        clearInterval(interval)
-
-        setTimeout(() => {
-            const randomTag = pickRandomTag()
-
-            highlightTag(randomTag)
-        }, 100)
-
-    }, times * 100)
+function updateCountdown(e) {
+  e.preventDefault();
+  // Set title and date, save to localStorage
+  countdownTitle = e.srcElement[0].value;
+  countdownDate = e.srcElement[1].value;
+  savedCountdown = {
+    title: countdownTitle,
+    date: countdownDate,
+  };
+  localStorage.setItem('countdown', JSON.stringify(savedCountdown));
+  // Check if no date entered
+  if (countdownDate === '') {
+    alert('Please select a date for the countdown.');
+  } else {
+    // Get number version of current Date, updateDOM
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
 }
 
-function pickRandomTag() {
-    const tags = document.querySelectorAll('.tag')
-    return tags[Math.floor(Math.random() * tags.length)]
+function reset() {
+  // Hide countdowns, show input form
+  countdownEl.hidden = true;
+  completeEl.hidden = true;
+  inputContainer.hidden = false;
+  // Stop the countdown
+  clearInterval(countdownActive);
+  // Reset values, remove localStorage item
+  countdownTitle = '';
+  countdownDate = '';
+  localStorage.removeItem('countdown');
 }
 
-function highlightTag(tag) {
-    tag.classList.add('highlight')
+function restorePreviousCountdown() {
+  // Get countdown from localStorage if available
+  if (localStorage.getItem('countdown')) {
+    inputContainer.hidden = true; 
+    savedCountdown = JSON.parse(localStorage.getItem('countdown'));
+    countdownTitle = savedCountdown.title;
+    countdownDate = savedCountdown.date;
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
 }
 
-function unHighlightTag(tag) {
-    tag.classList.remove('highlight')
-}
+// Event Listener
+countdownForm.addEventListener('submit', updateCountdown);
+countdownBtn.addEventListener('click', reset);
+completeBtn.addEventListener('click', reset);
+
+// On Load, check localStorage
+restorePreviousCountdown();
+
 ```
