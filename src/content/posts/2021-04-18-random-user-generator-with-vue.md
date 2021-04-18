@@ -34,9 +34,7 @@ featuredImage: /assets/screen-shot-2021-04-18-at-7.30.03-am.png
 </html>
 ```
 
-
----
-
+- - -
 
 ```javascript
 const app = Vue.createApp({
@@ -67,3 +65,7 @@ const app = Vue.createApp({
 
 app.mount('#app')
 ```
+
+---
+
+[Check out the demo](https://codepen.io/chrisconnellydotdev/pen/xxgaKgy)
